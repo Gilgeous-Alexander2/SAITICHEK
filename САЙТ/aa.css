@@ -28,6 +28,20 @@ body{
 
 }
 
+.nizzz {
+  background-color: rgb(28, 28, 28);
+  position: relative;
+  top: 7000px;
+  left: 25%;
+  color: #ffffff;
+}
+
+.form-control{
+  width: 500px;
+  height: 50px;
+  font-size: 40px;
+}
+
 .ntro_titka_2{
   font-family: 'Inter';
   font-style: italic;
@@ -414,7 +428,7 @@ color: #FFFFFF;
   width: 110%;
   margin-top:-10px;
   margin-left:-10px;;
-  height: 2000px;
+  height: 2300px;
   top: 6010px;;
   clip-path: polygon(0 42%, 100% 0, 100% 100%, 0 100%);
 }
