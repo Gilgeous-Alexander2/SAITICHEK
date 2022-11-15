@@ -73,10 +73,10 @@ body{
 
 .imageee{
   position: absolute;
-  width: 1620px;
-  height: 900px;
-  left: 1110px;
-  top: 180px;
+  width: 1050px;
+  height: 1050px;
+  left: 1410px;
+  top: 100px;
 }
 .button{
     
@@ -151,6 +151,7 @@ body{
   text-align: center;
   color: #ffffff;
 }
+
 
 .button1{
   position: absolute;
@@ -260,9 +261,9 @@ body{
   font-family: 'Inter';
   font-style: italic;
   position: absolute;
-  width: 956px;
+  width: 1500px;
   height: 100px;
-  left: 770px;
+  left: 600px;
   top: 2750px;
   
   font-weight: 900s;
@@ -280,8 +281,9 @@ body{
 .Arnold{
   position: absolute;
   width: 800px;
-  left: 1500px;
+  left: 63%;
   top: 3000px;
+  transform:rotate(6.35deg);
 }
 
 .speakers{
@@ -315,6 +317,24 @@ body{
   line-height: 100.02%;
   left:10%;
   right:10%;
+  /* or 64px */
+  
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.container1{
+  align-items: center; display: flex; flex-direction: column;position: absolute;top:2925px;display: flex; height: 100px; gap: 200px; ;
+  font-family: 'Inter';
+  font-style: italic;
+  height: 100px;
+  font-weight: 900s;
+  font-size: 60px;
+
+  line-height: 100.02%;
+  left:10%;
+  right:40%;
+  
   /* or 64px */
   
   text-transform: uppercase;
