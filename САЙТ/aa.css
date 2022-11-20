@@ -1,11 +1,12 @@
 body{
   font-family: 'Inter';
   font-style: italic;
+  overflow-x:hidden;
 }
 
 
 .headerrr{
-  align-items: center; display: flex; flex-direction: row;position: absolute;gap:100px;
+  align-items: center; display: flex; flex-direction: row;position: absolute;left:0px;gap:100px;
   justify-content: center;
   font-weight: 900s;
   font-size: 25px;
@@ -179,7 +180,7 @@ body{
   background: rgb(28, 28, 28);
   position:absolute;
   top:0px;
-  width: 110%;
+  width: 100%;
   margin-top:-10px;
   margin-left:-10px;;
   height: 1350px;
@@ -191,7 +192,7 @@ body{
   display: block;
   position: absolute;
   background: linear-gradient(208.6deg, #C95A82 18.42%, #BF6B9E 39.81%, #9BA6FF 72.61%);
-  width: 110%;
+  width: 100%;
   margin-left:-10px;;
   height: 3800px;
   top: -270px;
@@ -214,7 +215,7 @@ color: #FFFFFF;
 .block1 {
   position: absolute;
   top:3450px;
-  width: 110%;
+  width: 100%;
   margin-top:-10px;
   margin-left:-10px;;
   height: 600px;
@@ -240,7 +241,7 @@ color: #FFFFFF;
   display: block;
   position: absolute;
   background: linear-gradient(190.6deg, rgba(155, 166, 255, 1) 18.42%, rgba(255, 190, 241, 1) 39.81%, rgba(238, 186, 138, 1) 72.61%);
-  width: 110%;
+  width: 100%;
   margin-left:-10px;;
   height: 3000px;
   top: 4000px;
@@ -251,7 +252,7 @@ color: #FFFFFF;
 {
   background: rgb(28, 28, 28);
   position: absolute;
-  width: 110%;
+  width: 100%;
   margin-top:-10px;
   margin-left:-10px;;
   height: 2300px;
@@ -265,7 +266,7 @@ color: #FFFFFF;
 .footer{
   background:#000;
   padding:30px 0px;
-  width: 110%;
+  width: 100%;
   margin-top:-10px;
   margin-left:-10px;;
   font-family: 'Play', sans-serif;
