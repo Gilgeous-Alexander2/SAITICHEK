@@ -2,26 +2,35 @@ body{
   font-family: 'Inter';
   font-style: italic;
   overflow-x:hidden;
+  scroll-behavior: smooth;
 }
 
+html {
+  scroll-behavior: smooth;
+  }
 
 .headerrr{
   align-items: center; display: flex; flex-direction: row;position: absolute;left:0px;gap:100px;
   justify-content: center;
-  font-weight: 900s;
-  font-size: 25px;
-
-  line-height: 100.02%;
-  width:100%;
+  width: 100%;
   color: rgb(255, 255, 255);
   background-color:#000000;
 }
 
-.ntro{
-  align-items: center; display: flex; flex-direction: column;position: absolute;
+.knopka{
   font-weight: 900s;
-  font-size: 60px;
+  font-size: 25px;
+  z-index: 10;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.knopka:hover{color:#9BA6FF }
 
+.ntro{
+  align-items: flex-start; display: flex; flex-direction: column;position: absolute;
+  font-weight: 900s;
+  font-size: 45px;
+  z-index: 1;
   line-height: 100.02%;
   left:10%;
   right:10%;
@@ -30,6 +39,7 @@ body{
   color: #ffffff;
  }
 
+ 
  .nizzz {
 
   align-items: center; display: flex; flex-direction: column;position: absolute;
@@ -69,38 +79,30 @@ body{
   top: 100px;
 }
 .button{
-    margin:0;
-    
-    font-family: 'Inter';
-    font-style: italic;
-    border-radius: 50px;
-    border-width: 0px;
-    width: 700px;
-    height: 90px;
-    font-weight: 900s;
-    font-size: 55px;
-    line-height: 100.02%;
-    background-color: #FF6DBA
-}
+  position:relative;
+  left:100px;
+  margin-top:100px;
+  border-radius: 50px;
+  border-width: 0px;
+  width: 700px;
+  height: 90px;
+  background-color: #FF6DBA;
 
+}
 
 
 
 
 .button1{
-  position: absolute;
+  position: relative;
+  left:100px;
+  top:20px;
+  text-decoration:none;color:#000000;
   font-family: 'Inter';
   font-style: italic;
-  border-radius: 50px;
-  width: 580px;
-  height: 80px;
-  left: 960px;
-  top: 7700px;
-  font-weight: 900s;
-  font-size: 48px;
-  line-height: 100.02%;
-  background-color: #FF6DBA;
+  font-size: 55px;
 }
+.button1:hover{color:#FFFFFF}
 
 
 .dva2{
@@ -115,6 +117,8 @@ body{
 .programma{
   align-items: center; display: flex; flex-direction: column;position: absolute;top:2750px;display: flex; height: 100px; gap: 200px; ;
   font-family: 'Inter';
+
+  padding-bottom: 200px;
   font-style: italic;
   height: 100px;
   font-weight: 900s;
@@ -172,6 +176,14 @@ body{
 
   color: #ffffff;
 }
+.nix{
+  display: flex;flex-direction: row; gap:200px;padding-bottom:80px;
+}
+.btn-primary{
+  width: 400px; height: 50px;font-size: 30px;font-family: 'Inter';
+	font-style: italic;border-radius: 50px;border-width: 0px;background-color: #FF6DBA;
+}
+.btn-primary:hover{color:#ffffff;}
 
 /*FOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOON*/
 
@@ -268,7 +280,7 @@ color: #FFFFFF;
   padding:30px 0px;
   width: 100%;
   margin-top:-10px;
-  margin-left:-10px;;
+  width: 100%;
   font-family: 'Play', sans-serif;
   top: 8000px;;
   position: relative;
