@@ -13,6 +13,7 @@ html {
   align-items: center; display: flex; flex-direction: row;position: absolute;left:0px;gap:100px;
   justify-content: center;
   width: 100%;
+  top:0px;
   color: rgb(255, 255, 255);
   background-color:#000000;
 }
@@ -23,8 +24,10 @@ html {
   z-index: 10;
   color: rgb(255, 255, 255);
   text-decoration: none;
+  transition: 0.10s;
 }
 .knopka:hover{color:#9BA6FF }
+.knopka:active{color:white;}
 
 .ntro{
   align-items: flex-start; display: flex; flex-direction: column;position: absolute;
@@ -87,7 +90,6 @@ html {
   width: 700px;
   height: 90px;
   background-color: #FF6DBA;
-
 }
 
 
@@ -101,8 +103,11 @@ html {
   font-family: 'Inter';
   font-style: italic;
   font-size: 55px;
+  transition: 0.10s;
 }
 .button1:hover{color:#FFFFFF}
+.button1:active{color:rgb(0, 0, 0);}
+
 
 
 .dva2{
@@ -180,10 +185,12 @@ html {
   display: flex;flex-direction: row; gap:200px;padding-bottom:80px;
 }
 .btn-primary{
-  width: 400px; height: 50px;font-size: 30px;font-family: 'Inter';
+  width: 400px; height: 50px;font-size: 30px;font-family: 'Inter';transition: 0.10s;
 	font-style: italic;border-radius: 50px;border-width: 0px;background-color: #FF6DBA;
 }
 .btn-primary:hover{color:#ffffff;}
+.btn-primary:active{color:rgb(0, 0, 0);}
+
 
 /*FOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOON*/
 
